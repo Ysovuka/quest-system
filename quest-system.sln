@@ -3,8 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58323640-419E-4DB3-BE4A-4E846C2FF9BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EECEEB6A-37C0-41B9-854A-9AA3BFA37B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Quests.Tests", "tests\c-sharp\System.Quests.Tests\System.Quests.Tests.csproj", "{92CBB826-11E0-492F-94E4-52BEAA225E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Quests", "src\c-sharp\System.Quests\System.Quests.csproj", "{D1934B7E-A242-4B03-B0E1-ADA2471506EB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92CBB826-11E0-492F-94E4-52BEAA225E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CBB826-11E0-492F-94E4-52BEAA225E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CBB826-11E0-492F-94E4-52BEAA225E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CBB826-11E0-492F-94E4-52BEAA225E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1934B7E-A242-4B03-B0E1-ADA2471506EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1934B7E-A242-4B03-B0E1-ADA2471506EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1934B7E-A242-4B03-B0E1-ADA2471506EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1934B7E-A242-4B03-B0E1-ADA2471506EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92CBB826-11E0-492F-94E4-52BEAA225E5B} = {EECEEB6A-37C0-41B9-854A-9AA3BFA37B85}
+		{D1934B7E-A242-4B03-B0E1-ADA2471506EB} = {58323640-419E-4DB3-BE4A-4E846C2FF9BF}
 	EndGlobalSection
 EndGlobal
