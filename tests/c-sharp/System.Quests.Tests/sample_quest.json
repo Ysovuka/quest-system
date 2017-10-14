@@ -1,0 +1,34 @@
+{
+  "Name": "Sample Quest",
+  "Description": "This is a sample quest to show how the quest system works.",
+  "Expiration": "0",
+  "Objectives": [
+    {
+      "Name": "Sample Objective",
+      "Description": "This is a sample objective for the sample quest.",
+      "Type": "Item",
+      "Expiration": "0",
+      "Priority": "0",
+      "Step": "1",
+      "Objectives": [],
+      "Requirements": [],
+      "Rewards": []
+    }
+  ],
+  "Requirements": [
+    {
+      "Name": "Sample Requirement",
+      "Description": "This is a sample requirement for the sample quest.",
+      "Amount": "1",
+      "Type": "Level"
+    }
+  ],
+  "Rewards": [
+    {
+      "Name": "Sample Reward",
+      "Description": "This is a sample reward for the sample quest.",
+      "Amount": "1",
+      "Type": "Monetary"
+    }
+  ]
+}
